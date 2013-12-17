@@ -1,0 +1,24 @@
+{
+  "name": "connect-chain",
+  "version": "0.0.1",
+  "description": "Connect middleware that composes a new middleware from a chain of middlewares.",
+  "homepage": "http://goodeggs.github.com/connect-chain/",
+  "main": "lib/chain",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/connect-chain.git"
+  },
+  "keywords": [
+    "connect",
+    "chain",
+    "middleware",
+    "express"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
