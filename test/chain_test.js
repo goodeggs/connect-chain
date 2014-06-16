@@ -2,6 +2,7 @@ var expect = require('expect.js');
 var chain = require('../');
 
 describe('chain', function() {
+
   describe('empty chain', function() {
     it('passes through', function(done) {
       chain()({}, {}, function (err) {
